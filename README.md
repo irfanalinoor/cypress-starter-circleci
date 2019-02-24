@@ -17,4 +17,3 @@
 * Open Terminal and Navigate to Project Directory
 * Run `npm install`
 * Run `npm run cypress:open`
-
