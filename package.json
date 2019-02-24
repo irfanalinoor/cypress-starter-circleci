@@ -7,7 +7,7 @@
     "cypress:open": "cypress open"
   },
   "keywords": [
-    "cypress"
+    "cypress","CircleCI", "WebAutomation"
   ],
   "author": "irfanalinoor",
   "license": "MIT",
