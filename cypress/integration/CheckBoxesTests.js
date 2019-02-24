@@ -4,9 +4,13 @@ const baseURL = 'http://the-internet.herokuapp.com/'
 
 describe('Checkbox Page Tests', function () {
 
-
-  it('Verify Home Page has required links', function () {
+  beforeEach(function () {
+    cy.clock()
     cy.visit(baseURL)
+  })
+
+  it('Verify Checkbox Scenarios', function () {
+    
     cy.contains('Checkboxes').click()
     cy.url()
       .should('include', '/checkboxes')
@@ -25,9 +29,9 @@ describe('Checkbox Page Tests', function () {
       .should('be.checked')
 
     //Set checkbox2 to un-check and verify
-    // cy.get('#checkboxes > :nth-child(1)')
-    //   .check()
-    //   .should('not.be.checked')
+    cy.get('#checkboxes > :nth-child(3)')
+      .uncheck()
+      .should('not.be.checked')
 
   })
 
