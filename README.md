@@ -1,13 +1,13 @@
 # Web Automation using Cypress (JavaScript) [![CircleCI](https://circleci.com/gh/irfanalinoor/cypress-starter-circleci/tree/master.svg?style=svg)](https://circleci.com/gh/irfanalinoor/cypress-starter-circleci/tree/master)
 
 ## Overview
-* This is simple project to showcase Web Automation using Cypress (JavaScript).
+* This is simple project to showcase eb automation using Cypress (JavaScript).
 * Project uses sample website for automation practice
-* **Skills:** Web Test Automation, Cypress, Continouse Integration
+* **Skills:** Web Test Automation, Cypress, Continuous Integration
 * **Languages:** Cypress / Javascript
 * **SCM:** Git
 * **Build/Dependency Management:** npm
-* **Testing Frameworks:** Cypress, WebAutomation
+* **Testing Framework:** Cypress
 * **CI/CD:** Integration with [CircleCI](https://circleci.com/gh/irfanalinoor)
 
 ## Setup
